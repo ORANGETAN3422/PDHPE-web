@@ -1,0 +1,20 @@
+@font-face { font-family: premierMacho; src: url('Premiersans-PxvZ.otf'); }
+body{
+    background-color: lightgray;
+}
+h1{
+    font-family: premierMacho, sans-serif;
+    font-size: 10vb;
+    color: lightgray;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 10px;
+}
+.bg-deco{
+    background-color: green;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    clip-path: polygon(0 0, 40% 0, 100% 100%, 0% 100%);
+}
