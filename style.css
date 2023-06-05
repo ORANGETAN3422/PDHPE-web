@@ -1,0 +1,37 @@
+@font-face { font-family: premierMacho; src: url('Premiersans-PxvZ.otf'); }
+@font-face { font-family: Ubuntu; src: url('Ubuntu-Regular.ttf'); }
+body{
+    background-color: lightgray;
+}
+.main-header{
+    font-family: premierMacho, sans-serif;
+    font-size: 10vb;
+    color: lightgray;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 50px;
+}
+.header-subheading{
+    font-family: Ubuntu, sans-serif;
+    font-size: 5vb;
+    color: lightgray;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+    text-align: center;
+}
+.bg-deco{
+    background-color: green;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    clip-path: polygon(0 0, 40% 0, 100% 100%, 0% 100%);
+}
+.separateLine{
+    width: 50%;
+    height: 3px;
+    margin-left: 10px;
+    background: linear-gradient(0.25turn, green, white, white, green);
+}
