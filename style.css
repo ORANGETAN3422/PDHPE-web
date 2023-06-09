@@ -1,0 +1,157 @@
+body{
+    background: #f4f1ed;
+}
+.top-bar{
+    width: 99.99%;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+    margin-left: 0;
+    height: 40px;
+    background: rgb(80, 80, 80);
+    /*border-style: solid;
+    border-color: rgba(0, 0, 0, .4);
+    border-width: 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);*/
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(10, 6%);
+}
+.placeholder{
+    margin-top: 3px;
+    margin-left: 2%;
+    width: 95%;
+    /*border-style: solid;*/
+    border-color: rgba(0, 0, 0, .4);
+    border-width: 1px;
+    height: 30px;
+    text-align: center;
+    font-size: 1vw;
+}
+.top-bar-text{
+    color: lightgray;
+    margin-top: 5px;
+    font-family: Ebrima, sans-serif;
+    white-space: nowrap;
+    transition: all .2s ease;
+}
+.top-bar-text:hover{
+    color: white;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.top-bar-troll{
+    color: rgb(80, 80, 80);
+    margin-top: 5px;
+    font-family: Ebrima, sans-serif;
+    white-space: nowrap;
+    transition: all .2s ease;
+}
+h1{
+    font-size: 5rem;
+    font-family: Ebrima, sans-serif;
+    color: black;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: .4s all ease;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: Ebrima, sans-serif;
+    color: black;
+    margin-left: 20px;
+    margin-top: -50px;
+    transition: .4s all ease;
+    text-align: center;
+    width: 28%;
+    opacity: 0;
+}
+.info-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -21%;
+    opacity: 0;
+    transition: all .4s ease;
+    margin-left: 3%;
+}
+span{
+    font-size: 1.5rem;
+}
+.display-box{
+    width: 95%;
+    /*border-style: solid;
+    border-width: 5px;*/
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+    margin-top: 20px;
+    background-color: white;
+}
+.box-0{
+    margin-left: 60%;
+    width: 50%;
+    height: 300px;
+    visibility: hidden;
+}
+.box-1{
+    margin-left: 13%;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img-clip{
+    clip-path: polygon(0 0, 20% 0, 45% 100%, 0% 100%);
+    width: 200%;
+    height: 100%;
+    image-resolution: normal;
+}
+.cricket-img{
+    margin-left: -350px;
+}
+.box-2{
+    height: 300px;
+    width: 80%;
+    transition: all .4s ease;
+}
+.box-3{
+    height: 300px;
+    width: 110%;
+    margin-left: -17%;
+    transition: all .4s ease;
+}
+.box-4{
+    height: 300px;
+    width: 110%;
+    transition: all .4s ease;
+
+}
+.box-5{
+    height: 300px;
+    width: 80%;
+    margin-left: 13%;
+    transition: all .4s ease;
+}
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Ebrima, sans-serif;
+}
+p{
+    font-family: Ebrima, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.box-1-txt{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: -20px;
+}
+.text-sec-1{
+    margin-left: -35%;
+}
